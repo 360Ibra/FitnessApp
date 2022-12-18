@@ -12,48 +12,46 @@
 
     <EditText
         android:id="@+id/email_login"
-        android:background="@drawable/editext_background"
-        android:hint="Email Address"
         android:layout_width="match_parent"
-        android:layout_height="50dp"/>
+        android:layout_height="50dp"
+        android:background="@drawable/editext_background"
+        android:hint="Email Address" />
 
     <EditText
         android:id="@+id/password_login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/editext_background"
-        android:hint="Password"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"/>
-
+        android:hint="Password" />
 
     <Button
         android:id="@+id/login"
-        android:layout_marginTop="10dp"
-        android:layout_gravity="center"
-        android:text="LOGIN"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="LOGIN" />
 
     <TextView
         android:id="@+id/reset_password"
 
-        android:textColor="@color/teal_700"
-        android:text="Reset Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
+        android:text="Reset Password"
+        android:textColor="@color/teal_700" />
 
     <TextView
         android:id="@+id/go_signup"
 
-        android:textColor="@color/teal_700"
-        android:text="Signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:text="Signup"
+        android:textColor="@color/teal_700" />
 
 
 </LinearLayout>

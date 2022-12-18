@@ -43,6 +43,7 @@ public class LoginActivity extends AppCompatActivity {
                             public void onSuccess(AuthResult authResult) {
                                 progressDialog.cancel();
                                 Toast.makeText(LoginActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
+                                startActivity(new Intent(LoginActivity.this,MainActivity2.class));
                             }
                         })
                         .addOnFailureListener(new OnFailureListener() {
