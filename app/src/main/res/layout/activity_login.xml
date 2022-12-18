@@ -11,11 +11,12 @@
 
 
     <EditText
+        android:layout_marginTop="170dp"
         android:id="@+id/email_login"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@drawable/editext_background"
-        android:hint="Email Address" />
+        android:hint="  Email Address" />
 
     <EditText
         android:id="@+id/password_login"
@@ -23,7 +24,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/editext_background"
-        android:hint="Password" />
+        android:hint="  Password" />
 
     <Button
         android:id="@+id/login"
@@ -41,7 +42,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:text="Reset Password"
-        android:textColor="@color/teal_700" />
+        android:textColor="@color/black" />
 
     <TextView
         android:id="@+id/go_signup"
@@ -51,7 +52,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:text="Signup"
-        android:textColor="@color/teal_700" />
+        android:textColor="@color/black" />
 
 
 </LinearLayout>

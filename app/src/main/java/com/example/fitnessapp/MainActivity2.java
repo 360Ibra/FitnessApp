@@ -8,10 +8,14 @@ import android.os.Handler;
 
 import com.google.android.material.tabs.TabLayout;
 
+import java.util.ArrayList;
+
 public class MainActivity2 extends AppCompatActivity {
 
     TabLayout tabLayout;
     ViewPager viewPager;
+
+    ArrayList<WorkoutModel> workoutModels = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,11 +23,24 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
 
+        setUpWorkoutModels();
+
+
         tabLayout = findViewById(R.id.tabLayout);
         viewPager = findViewById(R.id.viewPager);
         getTabs();
 
+    }
 
+    private void setUpWorkoutModels(){
+        String[] excerciseNames = getResources().getStringArray(R.array.excercise_name);
+        String[] setsReps = getResources().getStringArray(R.array.sets_reps);
+        int[] excerciseGifs = { R.drawable.pushups,R.drawable.pushups,R.drawable.pushups,R.drawable.pushups,R.drawable.pushups};
+
+        for(int i =0; i<excerciseNames.length;i++){
+            workoutModels.add(new WorkoutModel(setsReps[i],excerciseNames[i],
+           excerciseGifs[i] ));
+        }
 
     }
     public void getTabs(){

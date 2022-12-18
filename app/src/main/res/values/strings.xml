@@ -5,4 +5,43 @@
     <string name="android">one</string>
     <string name="two">two</string>
     <string name="three">three</string>
+
+
+    <string-array name="excercise_name">
+        <item>pushups</item>
+        <item>pushups</item>
+        <item>pushups</item>
+        <item>pushups</item>
+        <item>pushups</item>
+    </string-array>
+
+
+    <string-array name="sets_reps">
+
+        <item>6</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>4</item>
+    </string-array>
+
+
+    <!--    <string-array name="unknown">-->
+
+    <!--        <item>Dublin Beacon</item>-->
+    <!--        <item>Harp Bridge</item>-->
+    <!--        <item>Dublin Castle</item>-->
+    <!--        <item>Dun Laoghire</item>-->
+    <!--        <item>Dublin Spire</item>-->
+    <!--    </string-array>-->
+
+
+    <!--    <string-array name="unkown_1">-->
+
+    <!--        <item>Dublin Beacon</item>-->
+    <!--        <item>Harp Bridge</item>-->
+    <!--        <item>Dublin Castle</item>-->
+    <!--        <item>Dun Laoghire</item>-->
+    <!--        <item>Dublin Spire</item>-->
+    <!--    </string-array>-->
 </resources>
